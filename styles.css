@@ -1,0 +1,209 @@
+@font-face {
+	font-family: "Montserrat", sans-serif; 
+	src: url(font/Montserrat-VariableFont_wght.ttf); 
+}
+
+* {
+    margin-right: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #111318;
+    color: #f0f8ff;
+    font-family: "Montserrat", sans-serif; 
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-family: "Montserrat", sans-serif;
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.header-wrapper {
+flex-direction: row;
+align-items: center;
+display: flex;
+
+}
+
+
+
+.about-me-description p {
+     margin-top: 10px;
+     font-family: "Montserrat", sans-serif; 
+     color:rgb(137 148 174);
+}
+
+.about-me-wrapper {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.description-name {
+    font-size: 50px;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-top: -19px;
+    color:rgb(137 148 174);
+}
+
+.education-wrapper {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.education-text {
+    color: rgb(92 135 246);
+    margin-top: 10px;
+}
+
+.education-text__about {
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif; 
+    color:rgb(137 148 174);
+}
+
+.tstu {
+    margin-top: 70px;
+}
+
+.education-tstu {
+    color: rgb(92 135 246);
+}
+
+.education-text__abouts {
+    color:rgb(137 148 174);
+}
+
+.box--one {
+    background-color: rgb(92 135 246);
+    color: black;
+    border-radius: 13px;
+    margin-bottom: .6rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    padding: .5rem 1.3rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.25;
+    width: 380px;
+}
+
+.box--two {
+    background-color: rgb(92 135 246);
+    color: black;
+    border-radius: 13px;
+    margin-bottom: .6rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    padding: .5rem 1.3rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.25;
+    width: 205px;
+    display: inline-block;
+}
+
+.box--three {
+    background-color: rgb(92 135 246);
+    color: black;
+    border-radius: 13px;
+    margin-bottom: .6rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    padding: .5rem 1.3rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.25;
+    width: 175px;
+    display: inline-block;
+}
+
+
+.about_pills-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.text-style-pill {
+    background-color: white;
+    color: black;
+    border-radius: 13px;
+    margin-bottom: .6rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    padding: .5rem 1.3rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.25
+}
+
+.text-style-pill.background-color-blue {
+    background-color: rgb(92 135 246);
+}
+
+.text-style-pill.background-color-yellow {
+    background-color: rgb(92 135 246);
+}
+.text-style-pill.background-color-red {
+    background-color: rgb(255, 255, 255);
+}
+
+.text-style-pill.background-color-pink {
+    background-color: rgb(92 135 246);
+}
+
+.skills-p {
+    font-size: 200px;
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 600;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.circles {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.inst--logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-right: 10px;
+    opacity: 75%;
+
+}
+
+.git--logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    opacity: 75%;
+}
+
+
